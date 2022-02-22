@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void fetchMovies() {
-        String url = "https://run.mocky.io/v3/1ed2b514-850c-415b-8586-8e60228372a1";
+        String url = "https://run.mocky.io/v3/0fc30274-0b84-4cb6-a0ea-f94783847648";
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
